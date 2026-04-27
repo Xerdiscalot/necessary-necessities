@@ -62,7 +62,6 @@ export default function Home() {
           />
         </div>
       </section>
-
       {/* FOOTER SEO TEXT */}
       <footer style={{ marginTop: 60, color: "#888", fontSize: 14 }}>
         <p>
