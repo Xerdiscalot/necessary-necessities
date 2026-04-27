@@ -1,11 +1,16 @@
 {
   "name": "necessary-necessities",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
+    "preinstall": "npm install",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "vercel-build": "npm install && next build"
   },
   "dependencies": {
     "next": "14.2.5",
