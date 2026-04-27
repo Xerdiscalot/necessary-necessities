@@ -13,3 +13,8 @@
     "react-dom": "latest"
   }
 }
+{
+  "engines": {
+    "node": "18.x"
+  }
+}
