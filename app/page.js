@@ -5,3 +5,4 @@ export default function Home() {
     </main>
   );
 }
+const affiliateTag = process.env.NEXT_PUBLIC_AFFILIATE_TAG;
